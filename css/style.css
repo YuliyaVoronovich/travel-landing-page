@@ -34,7 +34,46 @@
     margin: 0;
     padding: 0;
   }
+  body {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+  }
   .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+  }
+  .header {
+    background: #102746;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+  }
+  .header-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 82px;
+    list-style: none;
+  }
+  .header-link {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .header-link:hover,
+  .header-link:focus,
+  .header-link:active {
+    opacity: 0.75;
   }
