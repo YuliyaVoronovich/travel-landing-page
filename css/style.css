@@ -34,3 +34,7 @@
     margin: 0;
     padding: 0;
   }
+  .wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
