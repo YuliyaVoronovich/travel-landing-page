@@ -46,8 +46,8 @@
     max-width: 1060px;
     margin: 0 auto;
   }
+  /*Header styles start*/
   .header {
-    background: #102746;
     position: fixed;
     top: 0;
     left: 0;
@@ -77,3 +77,14 @@
   .header-link:active {
     opacity: 0.75;
   }
+  /*Header styles end*/
+
+  /*Intro styles start*/
+  .intro {
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%, transparent 50%), url(../img/Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  /*Intro styles end*/
